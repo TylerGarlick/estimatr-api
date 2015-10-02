@@ -1,0 +1,29 @@
+{
+  "name": "estimatr-api",
+  "version": "1.0.0",
+  "description": "Api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^2.10.1",
+    "hapi": "^10.1.0",
+    "hat": "0.0.3",
+    "joi": "^6.8.1",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "nconf": "^0.8.0",
+    "rethinkdbdash": "^2.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
